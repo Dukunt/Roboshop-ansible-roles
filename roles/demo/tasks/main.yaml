@@ -1,3 +1,0 @@
-- name: hello world demo
-  ansible.builtin.debug:
-   msg: "message from roles"
