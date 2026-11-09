@@ -1,11 +1,11 @@
 - name: message from task-1
-  ansible.buitin.debug:
+  ansible.builtin.debug:
    msg: " Message from Task-1"
 
 - name: message from task-2
-  ansible.buitin.debug:
+  ansible.builtin.debug:
    msg: " Message from Task-2"
 
 - name: message from task-3
-  ansible.buitin.debug:
+  ansible.builtin.debug:
    msg: " Message from Task-3"   
