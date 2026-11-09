@@ -1,0 +1,6 @@
+- name: demo on include and import 
+  hosts: local
+  connection: local
+  ansible.builtin.inport_role:
+  - name: common
+    tasks_from: incl-vs-impo

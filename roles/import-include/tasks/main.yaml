@@ -1,6 +1,0 @@
-- name: demo for calling import and include 
-  hosts: local
-  connection: local
-  ansibe.builtin.importrole:
-   - name: common
-     tasks_from:
